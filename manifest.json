@@ -1,0 +1,11 @@
+{
+    "name": "Links Sai Krishna Reddy Kovvuri",
+    "short_name": "Sai Krishna Reddy Kovvuri - instagram - github ",
+    "description": "Links Sai Krishna Reddy Kovvuri",
+    "theme_color": "#fff",
+    "background_color": "white",
+    "display": "standalone",
+    "Scope": "./",
+    "start_url": "index.html",
+    "splash_pages": null
+  }
