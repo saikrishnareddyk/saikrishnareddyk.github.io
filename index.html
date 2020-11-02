@@ -23,10 +23,11 @@
 
                 </h1>
                 <div class="bio">
-                    
-                        I'm a Web Developer. <span class="none">I build websites for a tech company in India. </span>  You can find my work on
-                        Codepen, Github and Instagram.
-                    
+
+                    I'm a Web Developer. <span class="none">I build websites for a tech company in India. </span> You
+                    can find my work on
+                    Codepen, Github and Instagram.
+
                 </div>
 
             </div>
@@ -63,6 +64,13 @@
                     <i class='bx bxl-codepen'></i>
                     <span>
                         Codepen
+                    </span>
+                </a>
+                <a target="_blank" href="https://stackblitz.com/@saikrishnareddyk">
+                    <i class='bx bxl-stackblitz'></i>
+                    <img src="https://avatars2.githubusercontent.com/u/28635252?s=280&v=4" alt=" stackblitz">
+                    <span>
+                        Stackblitz
                     </span>
                 </a>
                 <a target="_blank" href="https://t.me/WebEnthusiast">
@@ -139,11 +147,11 @@
         if (evt.target.scrollLeft > window.innerWidth / 2 && evt.target.scrollLeft < window.innerWidth + (window.innerWidth / 2)) {
             menu.querySelector('button:nth-child(1)').classList.remove('active')
             menu.querySelector('button:nth-child(2)').classList.add('active')
-            // menu.querySelector('button:nth-child(3)').classList.remove('active')
+            menu.querySelector('button:nth-child(3)').classList.remove('active')
         } else if (evt.target.scrollLeft < window.innerWidth / 2) {
             menu.querySelector('button:nth-child(1)').classList.add('active')
             menu.querySelector('button:nth-child(2)').classList.remove('active')
-            // menu.querySelector('button:nth-child(3)').classList.remove('active')
+            menu.querySelector('button:nth-child(3)').classList.remove('active')
         } else if (evt.target.scrollLeft > window.innerWidth + (window.innerWidth / 2)) {
             menu.querySelector('button:nth-child(2)').classList.remove('active')
             menu.querySelector('button:nth-child(3)').classList.add('active')
@@ -180,10 +188,11 @@
     }
 
     .bio {
-      
+
         text-align: center;
     }
-    .none{
+
+    .none {
         display: none;
     }
 
@@ -382,7 +391,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        /* background color */
         background: rgb(var(--primary));
+        /* background:black; */
         margin-bottom: 16px;
         border-radius: 25px;
         position: relative;
