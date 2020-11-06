@@ -54,12 +54,12 @@
         </div>
         <div class="con-contents">
             <div class="con-links">
-                <a target="_blank" href="https://github.com/saikrishnareddyk">
+                <!-- <a target="_blank" href="https://github.com/saikrishnareddyk">
                     <i class='bx bxl-github'></i>
                     <span>
                         Github
                     </span>
-                </a>
+                </a> -->
                 <a target="_blank" href="https://codepen.io/collection/XOqkpw">
                     <i class='bx bxl-codepen'></i>
                     <span>
@@ -145,7 +145,6 @@
 
     contents.addEventListener('scroll', (evt) => {
         if (evt.target.scrollLeft > window.innerWidth / 2 && evt.target.scrollLeft < window.innerWidth + (window.innerWidth / 2)) {
-            window.navigator.vibrate(200);
             menu.querySelector('button:nth-child(1)').classList.remove('active')
             menu.querySelector('button:nth-child(2)').classList.add('active')
             menu.querySelector('button:nth-child(3)').classList.remove('active')
